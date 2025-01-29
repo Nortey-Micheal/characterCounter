@@ -1,6 +1,5 @@
-
+import { Counter } from "./components/counter"
 import { Navbar } from "./components/navbar"
-
 
 function App() {
   const navLinks = [
@@ -13,7 +12,7 @@ function App() {
   return (
     <>
       <Navbar image="src/assets/react.svg" links={navLinks} />
-
+      <Counter />
     </>
   )
 }
